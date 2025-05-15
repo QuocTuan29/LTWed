@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background-color: #999;
+  line-height: 1.6;
+}
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f3eded;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Search */
+#head-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* chia đều các phần: logo - search - auth */
+  margin: 10px 20px;
+}
+#search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* căn giữa nội dung bên trong */
+}
+#search-bar input {
+  width: 300px; /* hoặc bất kỳ chiều rộng hợp lý nào */
+}
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto; /* đẩy sang phải trong flex container */
+  gap: 10px;
+}
+.auth-container p {
+  margin: 0;
+  margin-right: 10px;
+}
+#head-container .auth-link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0059b3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* margin-right: 50px; */
+  float: right;
+}
+#head-container #logo img {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#search-bar input:hover {
+  background-color: #999;
+}
+
+/* Header */
+header {
+  background-color: #565;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 5px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #999;
+}
+#main {
+  width: 1000px;
+  height: auto;
+}
+.prd-block {
+  width: 1000px;
+  height: auto;
+}
+.prd-block h2 {
+  border: 1px solid black;
+  background-color: #444;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.prd-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin-left: 35px;
+  padding: 15px 0px;
+}
+.prd-item {
+  width: 200px;
+  text-align: center;
+  border: 1.5px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.prd-only {
+  width: 720px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.container-comment .information-comment-user {
+  display: flex;
+}
+.information-comment-user li {
+  list-style: none;
+}
+
+.container-comment input {
+  padding: 5px;
+  border-radius: 8px;
+  margin: 5px;
+  margin-right: 35px;
+}
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #444;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#footer h4 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#footer p {
+  color: aquamarine;
+  font-size: 15px;
+  text-align: center;
+}
