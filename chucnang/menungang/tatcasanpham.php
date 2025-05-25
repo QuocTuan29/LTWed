@@ -90,7 +90,7 @@
 
         //Nếu Không có kết quả 
         if ($totalRow == 0) {
-            echo '<p> Không tìm thấy sản phẩm nào "<strong>' . htmlspecialchars($search) . '<strong>".<\p> ';
+            echo '<p> Không tìm thấy sản phẩm nào tên "<strong>' . htmlspecialchars($search) . '<strong>" ';
         }
         ?>
     </div>

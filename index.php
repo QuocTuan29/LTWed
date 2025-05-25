@@ -13,11 +13,13 @@ include_once('cauhinh/ketnoi.php');
     <link rel="stylesheet" type="text/css" href="css/trangchu.css">
     <link rel="stylesheet" type="text/css" href="css/khuyenmai.css">
     <link rel="stylesheet" type="text/css" href="css/chitietsp.css">
+
 </head>
 <div id="wrapper">
     <header>
         <h1>Website bán dép xịn số 1 Việt Nam</h1>
     </header>
+
 
     <div id="head-container">
         <div id="search-bar">
@@ -52,6 +54,7 @@ include_once('cauhinh/ketnoi.php');
 
     <body>
 
+
         <div id="navbar">
             <nav class="navbar navbar-expand">
                 <ul>
@@ -68,9 +71,15 @@ include_once('cauhinh/ketnoi.php');
                     ?>
                 </ul>
         </div>
-        <?php
-        ?>
+
+        <div class="slide">
+            <?php include_once('Slide/slide.php'); ?>
+            <script src="Slide/slide.js"></script>
+        </div>
+
+
         <div id="main">
+
             <?php
             if (isset($_GET['page_layout'])) {
 
@@ -99,12 +108,14 @@ include_once('cauhinh/ketnoi.php');
             }
             ?>
         </div>
+
         <div id="footer">
             <div id="footer-item">
                 <h4>Cửa hàng Website bán dép uy tín Việt Nam</h4>
                 <p><span>Địa chỉ:</span> 170 - An Dương Vương, Thành Phố Quy Nhơn | <span>Hotline: 0946042975</span> </p>
             </div>
         </div>
+
     </body>
 
 </div>
