@@ -2,7 +2,7 @@
     <h2>Giỏ hàng của bạn</h2>
     <div class="cart">
         <?php
-            
+
         ?>
         <form method="post" id="giohang">
             <table>
@@ -21,6 +21,6 @@
                     <td>Thành tiền:</td>
                 </tr>
             </table>
-        </form>  
+        </form>
     </div>
 </div>

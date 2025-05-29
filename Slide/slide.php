@@ -6,22 +6,17 @@
   <title>Slider Demo</title>
   <style>
     .slider {
-      width: 100%;
-      max-width: 891.2px;
-      aspect-ratio: 2/1;
       overflow: hidden;
       position: relative;
     }
 
     .list-images {
       display: flex;
-      width: 300%;
+      width: 200%;
       transition: 0.5s;
     }
 
     .slider-img {
-      max-width: 891.2px;
-      aspect-ratio: 2/1;
       width: 100%;
       height: auto;
       object-fit: cover;

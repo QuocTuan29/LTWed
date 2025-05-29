@@ -6,17 +6,23 @@
     <style>
         * {
             box-sizing: border-box;
+            border: 1pt;
+            border-color: black;
         }
 
         body {
             display: flex;
-            justify-content: center;
-            align-items: center;
+
         }
 
         #search-box {
-            background: #fff;
+            background-color: #fff;
             border-radius: 30px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin: 20px 0px;
+
         }
 
         #search-box #search-text {
